@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+.quote {
+  border-left: .25rem solid grey;
+  padding: 2px 0px;
+  margin-bottom: 8px;
+}
+
+.beecolor {
+  background-color: lightyellow;
+}
+
+.link {
+  text-decoration: none;
+}

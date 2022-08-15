@@ -1,0 +1,18 @@
+<div class="container">
+  <h1 class="pb-3">Stupid Coaching</h1>
+  <div class="border-left quote">
+    <div class="m-3">
+      <%= @query %>
+      <p class="fst-italic fs-3 text">-You</p>
+    </div>
+  </div>
+
+  <div class="border-left quote beecolor">
+    <div class="m-3">
+      <strong><%= @coach_answer %></strong>
+      <p class="fst-italic fs-3 text">-Your Coach</p>
+    </div>
+  </div>
+
+  <%= link_to 'Ask a new question', root_path, class: "link" %>
+</div>
